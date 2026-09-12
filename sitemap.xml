@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://faroinvetta.com/</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/"/>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <changefreq>monthly</changefreq><priority>1.0</priority>
   </url>
   <url>
     <loc>https://faroinvetta.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/"/>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq><priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/metodo.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/metodo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/method.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/metodo.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/en/method.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/metodo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/method.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/metodo.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/servizi.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/servizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/servizi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/servizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/servizi.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/studio.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/studio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/studio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/studio.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/en/studio.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/studio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/studio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/studio.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/ecosistema.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/ecosistema.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/ecosystem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/ecosistema.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faroinvetta.com/en/ecosystem.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://faroinvetta.com/ecosistema.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://faroinvetta.com/en/ecosystem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://faroinvetta.com/ecosistema.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
 </urlset>
