@@ -332,7 +332,7 @@ footer{background:var(--ink-800);color:var(--on-dark-mut);border-top:1px solid r
 .pagecta p{margin-top:12px;color:var(--on-dark-mut);max-width:34em;margin-left:auto;margin-right:auto}
 .pagecta .btn-row{margin-top:26px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 @media(max-width:760px){.explore .cards{grid-template-columns:1fr}}
-.lang-switch{display:inline-flex;align-items:center;height:34px;padding:0 13px;font-family:var(--mono);font-size:12px;letter-spacing:.05em;border:1px solid var(--ink-line);border-radius:2px;color:var(--on-dark-mut);transition:.2s}.lang-switch:hover{border-color:var(--gold);color:var(--gold)}</style>
+.lang a,.lang span{background:none;border:0;color:var(--on-dark-mut);padding:0 12px;height:100%;display:inline-flex;align-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.05em;transition:.2s;text-decoration:none}.lang a:hover{color:var(--gold)}.lang .on{background:var(--gold);color:#241a06}@media(max-width:560px){.sec{padding:46px 0}.subhero .wrap{padding:30px 18px 28px}.pagecta .wrap{padding:46px 18px}.cta .wrap{padding:56px 18px}.hero .cta-row{gap:14px}.hero .cta-row .btn-gold,.pagecta .btn-gold,.cta .btn-gold{width:100%;justify-content:center}.cta-note{font-size:16px}.hero-copy{order:1}.hero-visual{order:2;min-height:236px;margin-top:10px}.hero-anim{height:236px}.subhero h1{font-size:clamp(1.72rem,7.4vw,2.2rem)}.prose p.lead-p{font-size:17.5px}}</style>
 </head>
 <body>
 
@@ -357,7 +357,7 @@ footer{background:var(--ink-800);color:var(--on-dark-mut);border-top:1px solid r
     <a class="navlink" href="/en/#contatti">Contact</a>
   </nav>
   <div class="nav-right">
-    <a class="lang-switch" href="/" hreflang="it" aria-label="Italiano">IT</a>
+    <div class="lang" role="group" aria-label="Lingua"><a href="/" hreflang="it" aria-label="Italiano">IT</a><span class="on">EN</span></div>
     <a class="nav-cta" href="mailto:studio@faroinvetta.com?subject=Richiesta%20di%20diagnosi%20—%20FARO%20IN%20VETTA">Request a diagnosis</a>
     <button class="menu-btn" id="menuBtn" aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
   </div>
@@ -486,7 +486,7 @@ footer{background:var(--ink-800);color:var(--on-dark-mut);border-top:1px solid r
 
 
 
-<script>(function(){var mb=document.getElementById("menuBtn"),nl=document.getElementById("navLinks");if(mb&&nl){mb.addEventListener("click",function(){nl.classList.toggle("open");});nl.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){nl.classList.remove("open");});});}})();</script>
+<script>(function(){var mb=document.getElementById("menuBtn"),nl=document.getElementById("navLinks");if(mb&&nl){mb.addEventListener("click",function(){nl.classList.toggle("open");});nl.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){nl.classList.remove("open");});});}var L=document.documentElement.lang||"it";var MSG=L==="en"?"Email address copied ✓":"Indirizzo email copiato ✓";var t;function toast(){if(!t){t=document.createElement("div");t.style.cssText="position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#E4A93B;color:#241a06;font-family:system-ui,-apple-system,Segoe UI,sans-serif;font-weight:600;font-size:14px;padding:11px 18px;border-radius:4px;box-shadow:0 8px 30px rgba(0,0,0,.35);z-index:9999;opacity:0;transition:opacity .2s;pointer-events:none";document.body.appendChild(t);}t.textContent=MSG;t.style.opacity="1";clearTimeout(t._h);t._h=setTimeout(function(){t.style.opacity="0";},1900);}document.querySelectorAll('a[href^="mailto:"]').forEach(function(a){a.addEventListener("click",function(){try{var em=decodeURIComponent(a.getAttribute("href").slice(7).split("?")[0]);if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(em);toast();}}catch(e){}});});})();</script>
 
 <!-- ===== 3D-анімація логотипа (маяк) у героï ===== -->
 
